@@ -3,7 +3,7 @@
     width: 20%;
     background: transparent;
     float: right;
-    border:1px solid #000000;
+    
 }
 
 
@@ -36,15 +36,13 @@ ul, ol {
     background-clip: padding-box;
     display: flex;
     flex-direction: column;
-    height: 18.375rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
     overflow: hidden;
     position: relative;
     text-align: left;
     width: 18.75rem;
     border-radius: 10px;
     border:1px solid #000000;
+    transition: .5s ease;
 }
 
 
@@ -53,8 +51,6 @@ ul, ol {
     display: flex;
     flex-direction: column;
     height: 18.375rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
     overflow: hidden;
     position: relative;
     text-align: left;
@@ -209,4 +205,16 @@ h2 {
 
 .estudio.text-name:hover{
     text-decoration: underline;
+}
+
+
+@media screen and (max-width:480px){
+    .side-bar-right{
+        height: 100%;
+        width: 40%;
+        background: transparent;
+        float: right;
+        
+    }
+    
 }
